@@ -1,0 +1,8 @@
+version: "2"
+services:
+  audiomus-api:
+    build: .
+    ports:
+      - "9000:9000"
+    environment:
+      - "NODE_ENV=production"
